@@ -54,7 +54,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <h1>Ejemplo de listas</h1>
+        <h1>Ejemplo de listas de Jackseni</h1>
         <ul className="todo-list">
           {this.state.data.map(
             (item,index) =>
